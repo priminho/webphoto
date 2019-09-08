@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+ li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+}
+li a:hover{
+    background-color:#dd8d8d8d;
+}
+.active{
+    background-color: crimson;
+}
+.right{
+    float: right;
+}
+span.font{
+    font-family: 'Monoton', cursive;
+}
+img{
+    margin-left: 550px;
+    width: 60px;
+    height: 60px;
+}
